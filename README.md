@@ -1,16 +1,25 @@
-# maya_test
+# MAYA Test
 
-A new Flutter project.
+Test Objectives:
+1st Screen Should Display the ff:
+● Wallet Balance with show/hide icon
+● Send Money button
+● View Transactions Button
+2nd Screen Should Display the ff:
+● Textfield that accepts numbers
+● Submit Button
+● Bottom Sheet on Success/Error (after clicking submit button)
+3rd Screen Should Display the ff:
+● Transaction History
 
-## Getting Started
+## Requirements
+Flutter 3.19.3 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision ba39319843 (5 months ago) • 2024-03-07 15:22:21 -0600
+Engine • revision 2e4ba9c6fb
+Tools • Dart 3.3.1 • DevTools 2.31.1
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+1. Pull the repo
+2. run `init_all.sh`
+3. run the app
+4. to run the test coverage run `tests.sh`
